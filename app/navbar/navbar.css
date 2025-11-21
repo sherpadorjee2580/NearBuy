@@ -1,0 +1,33 @@
+.nav__navOptContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  li {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 10px;
+  }
+  li:hover {
+    background-color: rgb(53, 120, 202);
+  }
+}
+.nav__loginBtn,
+.nav__signUpBtn {
+  height: 40px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(53, 120, 202);
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+}
+.nav__signUpBtn {
+  border: 1px solid rgb(53, 120, 202);
+  background-color: transparent;
+  color: rgb(53, 120, 202);
+}
