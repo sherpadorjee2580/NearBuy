@@ -1,3 +1,5 @@
-import hero from "./hero";
+import Hero from "./hero";
 
-export default function
+export default function heroPage() {
+  return <Hero />;
+}
