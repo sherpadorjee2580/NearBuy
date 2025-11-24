@@ -1,0 +1,31 @@
+.checkout__left,
+.checkout__right {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex: 1;
+  flex-direction: column;
+  min-height: 450px;
+}
+.checkout__shipping-fullName,
+.checkout__shipping-address,
+.checkout__shipping-phoneNumber,
+.checkout__shipping-area,
+.checkout__shipping-deliveryNotes {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  label {
+    font-weight: 600;
+  }
+  input,
+  textarea {
+    border: 1px solid #666;
+    height: 35px;
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 5px;
+    font-size: 14px;
+  }
+}
