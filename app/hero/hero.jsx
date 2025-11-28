@@ -6,8 +6,8 @@ import Image from "next/image";
 const hero = () => {
   return (
     <div className="hero w-screen flex items-center justify-center px-[100px] py-[50px]">
-      <div className="hero__container w-full flex items-start justify-center  ">
-        <div className="hero__left flex items-start justify-center flex-col flex-1 gap-3 px-[100px]">
+      <div className="hero__container w-full flex items-start justify-center max-w-[1080px] gap-[15px]  ">
+        <div className="hero__left flex items-start justify-start flex-col flex-1 gap-3 ">
           <p className="hero__title text-[60px] font-bold max-w-[400px]">
             Welcome to NearBuy
           </p>
@@ -15,7 +15,11 @@ const hero = () => {
             Shop locally and support Jiri merchants
           </p>
           <div className="hero__searchSection flex items-center justify-center w-full">
-            <input type="text" placeholder="Search for products" className="hero__searchBar h-[40px] w-[90%] border border-r-0 rounded-l-[10px] pl-[15px] " />
+            <input
+              type="text"
+              placeholder="Search for products"
+              className="hero__searchBar h-[40px] w-[90%] border border-r-0 rounded-l-[10px] pl-[15px] "
+            />
             <button className="hero__searchBtn h-[40px] w-[10%] border flex items-center justify-center border-l-0 rounded-r-[10px]">
               <FaMagnifyingGlass />
             </button>

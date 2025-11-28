@@ -36,7 +36,7 @@ const featuredProduct = () => {
   ];
   return (
     <div className="feature flex items-center justify-center w-screen my-[50px] ">
-      <div className="feature__container flex items-start justify-start w-full max-w-[1280px] flex-col">
+      <div className="feature__container flex items-start justify-start w-full max-w-[1080px] flex-col">
         <p className="feature__title font-bold text-4xl">
           Featured products from Jiri
         </p>
