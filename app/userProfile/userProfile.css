@@ -1,0 +1,31 @@
+.userProfile__account {
+  height: 40px;
+  min-width: 120px;
+  background-color: white;
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.table__row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  td {
+    color: gray;
+    font-size: 14px;
+  }
+}
+.editProfile,
+.logOut {
+  width: 100%;
+  height: 35px;
+  border: 1px solid gray;
+  margin: 5px 0;
+  color: gray;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}

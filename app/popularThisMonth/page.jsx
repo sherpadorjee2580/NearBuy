@@ -1,34 +1,33 @@
 import React from "react";
-import "../featuredProduct.css";
 import Image from "next/image";
 import { FaStar } from "react-icons/fa6";
 
 export default function populatThisMonthPage() {
   const products = [
     {
-      image: "/images/banana.jpg",
-      title: "Banana",
+      image: "/images/dairyProducts.jpg",
+      title: "Cow Milk",
       merchant: "Thapa Family Farm",
       type: "Local farmer",
       price: "RS : 450",
     },
     {
-      image: "/images/banana.jpg",
-      title: "Banana",
+      image: "/images/dairyProducts.jpg",
+      title: "Cow Milk",
       merchant: "Thapa Family Farm",
       type: "Local farmer",
       price: "RS : 450",
     },
     {
-      image: "/images/banana.jpg",
-      title: "Banana",
+      image: "/images/dairyProducts.jpg",
+      title: "Cow Milk",
       merchant: "Thapa Family Farm",
       type: "Local farmer",
       price: "RS : 450",
     },
     {
-      image: "/images/banana.jpg",
-      title: "Banana",
+      image: "/images/dairyProducts.jpg",
+      title: "Cow Milk",
       merchant: "Thapa Family Farm",
       type: "Local farmer",
       price: "RS : 450",
@@ -36,13 +35,11 @@ export default function populatThisMonthPage() {
   ];
   return (
     <div className="feature flex items-center justify-center w-screen my-[50px] ">
-      <div className="feature__container flex items-start justify-start w-full max-w-[1080px] flex-col">
+      <div className="feature__container flex items-start justify-start w-full max-w-[1080px] flex-col gap-[15px]">
         <p className="feature__title font-bold text-4xl">
-          Featured products from Jiri
+          Popular Products this Month
         </p>
-        <p className="feature__subtitle text-[20px] text-gray-400">
-          Curated picks from local farmers & neighborhood shops.
-        </p>
+
         <div className="feature__productContainer flex w-full items-start justify-start gap-2 ">
           {products.map((item, index) => (
             <div
